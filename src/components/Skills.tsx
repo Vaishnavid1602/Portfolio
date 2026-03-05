@@ -10,39 +10,39 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Programming Languages',
+      title: 'Programming & Analysis',
       icon: Code,
-      skills: ['C', 'Java', 'JavaScript'],
+      skills: ['Python', 'SQL', 'JavaScript', 'C', 'Java'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      title: 'Web Technologies',
+      title: 'Data Visualization',
       icon: Globe,
-      skills: ['HTML', 'CSS', 'Bootstrap', 'Tailwind CSS'],
+      skills: ['Power BI', 'Matplotlib', 'Seaborn', 'Excel'],
       color: 'from-green-500 to-emerald-500'
     },
     {
-      title: 'Database',
+      title: 'Database Management',
       icon: Database,
-      skills: ['Mongodb'],
+      skills: ['SQL Server', 'MySQL', 'MongoDB', 'PostgreSQL'],
       color: 'from-purple-500 to-pink-500'
     },
     {
       title: 'Tools & Platforms',
       icon: Settings,
-      skills: ['VS Code', 'Git', 'GitHub'],
+      skills: ['VS Code', 'Git', 'GitHub', 'Jupyter Notebook'],
       color: 'from-orange-500 to-red-500'
     },
     {
-      title: 'Version Control',
+      title: 'Statistical Analysis',
       icon: GitBranch,
-      skills: ['Git', 'GitHub'],
+      skills: ['Descriptive Statistics', 'Inferential Statistics', 'Hypothesis Testing'],
       color: 'from-indigo-500 to-blue-500'
     },
     {
       title: 'Core Concepts',
       icon: Lightbulb,
-      skills: ['Data Structures & Algorithms', 'OOPs', 'DBMS', 'Web Development'],
+      skills: ['Data Structures', 'Machine Learning', 'DBMS', 'Data Storytelling'],
       color: 'from-yellow-500 to-orange-500'
     }
   ];
@@ -53,7 +53,7 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Technical Skills</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern web applications
+            A comprehensive toolkit for data analysis, visualization, and insight generation
           </p>
         </div>
 
@@ -95,7 +95,7 @@ const Skills = () => {
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-center mb-8 text-primary">Currently Learning</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['React.js', 'Node.js', 'Express.js', 'TypeScript'].map((skill, index) => (
+            {['Azure Data Fundamentals', 'Advanced ML', 'Tableau', 'Big Data'].map((skill, index) => (
               <span
                 key={skill}
                 className="skill-badge border-dashed border-primary/50 text-primary"

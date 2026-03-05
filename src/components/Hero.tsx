@@ -5,11 +5,11 @@ import { Button } from './ui/button';
 const Hero = () => {
   const [currentTitle, setCurrentTitle] = useState(0);
   const titles = [
-    'MERN Stack Developer',
-    'Problem Solver',
-    'Tech Enthusiast',
-    'Frontend Specialist',
-    'Backend Developer'
+    'Data Analyst',
+    'Python Developer',
+    'SQL Expert',
+    'Data Visualization Specialist',
+    'Machine Learning Enthusiast'
   ];
 
   useEffect(() => {
@@ -23,19 +23,19 @@ const Hero = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/vaibhav-gupta',
+      href: 'https://linkedin.com/in/vaishnavi-dwivedi',
       color: 'hover:text-blue-400'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/vaibhav-gupta',
+      href: 'https://github.com/vaishnavi-dwivedi',
       color: 'hover:text-gray-300'
     },
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:16vaibhavgupta@gmail.com',
+      href: 'mailto:vaishnavid8800@gmail.com',
       color: 'hover:text-primary'
     }
   ];
@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="mb-8 animate-scale-in">
           <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-primary-dark p-1 animate-pulse-glow">
             <div className="w-full h-full rounded-full bg-surface flex items-center justify-center">
-              <span className="text-4xl font-bold text-primary">VG</span>
+              <span className="text-4xl font-bold text-primary">VD</span>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Hero = () => {
         {/* Name */}
         <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">
           <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
-            Vaibhav Gupta
+            Vaishnavi Dwivedi
           </span>
         </h1>
 
@@ -83,9 +83,9 @@ const Hero = () => {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          Passionate web developer with expertise in full-stack development.
-          I create beautiful, responsive applications using modern technologies
-          and love solving complex problems through clean, efficient code.
+          Passionate Data Analyst with expertise in transforming data into actionable insights.
+          I specialize in Python, SQL, and data visualization to solve complex business problems
+          through analytical thinking and efficient code.
         </p>
 
         {/* CTA Buttons */}
@@ -98,8 +98,8 @@ const Hero = () => {
             <ExternalLink className="ml-2 h-4 w-4 group-hover:rotate-45 transition-transform duration-300" />
           </Button>
           <a
-            href="/Vaibhav_Gupta_Resume.pdf"
-            download="Vaibhav_Gupta_Resume.pdf"
+            href="/Vaishnavi_Resume.pdf"
+            download="Vaishnavi_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

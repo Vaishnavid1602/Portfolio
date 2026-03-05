@@ -1,24 +1,7 @@
 import { Calendar, MapPin, Award } from 'lucide-react';
 
 const Experience = () => {
-  const experiences = [
-    {
-      title: 'Web Development Intern',
-      company: 'CODEALPHA',
-      location: 'Virtual',
-      duration: '1 Month',
-      period: '2024',
-      type: 'Internship',
-      description: 'Gained hands-on experience in frontend technologies while assisting in the development of web applications.',
-      achievements: [
-        'Worked with modern frontend technologies and frameworks',
-        'Collaborated with development team on real-world projects',
-        'Enhanced skills in responsive web design',
-        'Gained experience in version control and team workflows'
-      ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Git']
-    }
-  ];
+  const experiences = [];
 
   return (
     <section id="experience" className="py-20 px-4">
@@ -35,7 +18,7 @@ const Experience = () => {
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-primary/50 to-transparent" />
 
           {experiences.map((experience, index) => (
-            <div 
+            <div
               key={`${experience.company}-${index}`}
               className="relative mb-12 last:mb-0"
               style={{ animationDelay: `${index * 0.2}s` }}
@@ -55,11 +38,10 @@ const Experience = () => {
                     </h4>
                   </div>
                   <div className="flex flex-col lg:items-end space-y-2">
-                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                      experience.type === 'Internship' 
+                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${experience.type === 'Internship'
                         ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
                         : 'bg-green-500/20 text-green-400 border border-green-500/30'
-                    }`}>
+                      }`}>
                       {experience.type}
                     </span>
                     <div className="flex items-center text-muted-foreground text-sm">
@@ -100,7 +82,7 @@ const Experience = () => {
                   <h5 className="text-sm font-semibold mb-3 text-primary">Technologies Used:</h5>
                   <div className="flex flex-wrap gap-2">
                     {experience.technologies.map((tech) => (
-                      <span 
+                      <span
                         key={tech}
                         className="skill-badge"
                       >
@@ -119,9 +101,10 @@ const Experience = () => {
           <div className="card-glow p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 text-primary">Open to Opportunities</h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I'm actively seeking full-time opportunities and internships where I can contribute 
-              to meaningful projects while continuing to grow as a developer. I'm particularly 
-              interested in roles that involve modern web technologies and collaborative team environments.
+              I'm actively seeking full-time opportunities and internships where I can contribute
+              to meaningful projects while continuing to grow as a Data Analyst. I'm particularly
+              interested in roles that involve data visualization, statistical modeling, and
+              collaborative team environments.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <span className="skill-badge">Full-time Positions</span>

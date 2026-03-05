@@ -18,19 +18,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: '16vaibhavgupta@gmail.com',
-      href: 'mailto:16vaibhavgupta@gmail.com'
+      value: 'vaishnavid8800@gmail.com',
+      href: 'mailto:vaishnavid8800@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 9630053241',
-      href: 'tel:+919630053241'
+      value: '+91 9770055855',
+      href: 'tel:+919770055855'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Indore, Madhya Pradesh, India',
+      value: 'Rewa, Madhya Pradesh, India',
       href: null
     }
   ];
@@ -39,13 +39,13 @@ const Contact = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/vaibhav-gupta',
+      href: 'https://linkedin.com/in/vaishnavi-dwivedi',
       color: 'hover:text-blue-400'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/vaibhav-gupta',
+      href: 'https://github.com/vaishnavi-dwivedi',
       color: 'hover:text-gray-300'
     }
   ];
@@ -60,7 +60,7 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!formData.name || !formData.email || !formData.message) {
       toast({
         title: "Error",
@@ -75,12 +75,12 @@ const Contact = () => {
     try {
       // Simulate form submission (in real implementation, you would use EmailJS or similar service)
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
+
       toast({
         title: "Message Sent!",
         description: "Thank you for your message. I'll get back to you soon!",
       });
-      
+
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
       toast({
@@ -109,9 +109,9 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-primary">Let's Connect</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                I'm always open to discussing new opportunities, interesting projects, or just 
-                connecting with fellow developers. Whether you have a question about my work, 
-                want to collaborate on a project, or are looking for a dedicated developer to 
+                I'm always open to discussing new opportunities, interesting projects, or just
+                connecting with fellow data enthusiasts. Whether you have a question about my analytics work,
+                want to collaborate on a data project, or are looking for a dedicated analyst to
                 join your team, I'd love to hear from you.
               </p>
             </div>
@@ -121,7 +121,7 @@ const Contact = () => {
               {contactInfo.map((info, index) => {
                 const Icon = info.icon;
                 return (
-                  <div 
+                  <div
                     key={info.label}
                     className="card-glow p-6 hover:scale-105 transition-all duration-300"
                     style={{ animationDelay: `${index * 0.1}s` }}
@@ -133,7 +133,7 @@ const Contact = () => {
                       <div>
                         <p className="text-sm text-muted-foreground">{info.label}</p>
                         {info.href ? (
-                          <a 
+                          <a
                             href={info.href}
                             className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
                           >
@@ -176,7 +176,7 @@ const Contact = () => {
             <div className="card-glow p-6 bg-primary/5 border-primary/20">
               <h4 className="text-lg font-semibold mb-2 text-primary">Quick Response</h4>
               <p className="text-sm text-muted-foreground">
-                I typically respond to messages within 24-48 hours. For urgent matters, 
+                I typically respond to messages within 24-48 hours. For urgent matters,
                 feel free to reach out via phone or LinkedIn.
               </p>
             </div>
@@ -185,7 +185,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="card-glow p-8">
             <h3 className="text-2xl font-bold mb-6 text-primary">Send a Message</h3>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2 text-foreground">
@@ -235,8 +235,8 @@ const Contact = () => {
                 />
               </div>
 
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 disabled={isSubmitting}
                 className="w-full btn-hero disabled:opacity-50 disabled:cursor-not-allowed"
               >

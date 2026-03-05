@@ -16,9 +16,9 @@ type Project = {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: " ResX.AI– AI-Powered Resume Analyzer (MERN + AI)",
+      title: " ResX.AI– AI-Powered Resume Analyzer (Data-Driven AI)",
       description:
-        "Developed a full- stack AI - powered resume analyzer using MERN, FastAPI, and NLP for resume parsing, skill extraction, and job–resume matching.",
+        "Developed an AI-powered resume analyzer using Python, FastAPI, and NLP for resume parsing, skill extraction, and data-driven job matching.",
       techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Python", "FastAPI", "NLP", "REST", "APIs"],
       features: [
         "AI-powered resume parsing and skill extraction using NLP for accurate analysis",
@@ -27,7 +27,7 @@ const Projects = () => {
         "Secure authentication and user-specific resume history tracking",
       ],
       liveDemo: "https://res-x-ai.vercel.app/",
-      github: "https://github.com/vaibhavgupta1620/ResX-AI",
+      github: "https://github.com/vaishnavi-dwivedi/ResX-AI",
       status: "Completed",
       // image: my,
     },
@@ -43,7 +43,7 @@ const Projects = () => {
         "Cloud deployment on Render",
       ],
       liveDemo: "https://url-shortner-22b4.onrender.com/",
-      github: "https://github.com/vaibhav-gupta/url-shortener",
+      github: "https://github.com/vaishnavi-dwivedi/url-shortener",
       status: "Completed",
       // image: portfolio,
     },
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       title: "SpendWise [An Expense Tracker WebApp]",
       description:
-        "Currently developing a expense tracker website with React and Node.js. Features include user authentication ,daily , weekly & monthly expenses with different category.",
+        "Currently developing an expense tracker website with React and Node.js. Features include user authentication, daily, weekly & monthly expenses with different categories.",
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       features: [
         "User Registration & Authentication (Sign up, Login, Logout)",
@@ -61,7 +61,7 @@ const Projects = () => {
         "Graphical analysis of expenses",
       ],
       liveDemo: "https://spendwise-frontend-pi.vercel.app/",
-      github: "https://github.com/vaibhavgupta1620/spend_wise",
+      github: "https://github.com/vaishnavi-dwivedi/spend_wise",
       status: "Completed",
       // image: "/api/placeholder/400/300",
     },
@@ -75,7 +75,7 @@ const Projects = () => {
           <h2 className="section-title">Featured Projects</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A collection of projects that demonstrate my skills and passion for
-            web development
+            data analytics and problem solving
           </p>
         </div>
 
@@ -197,7 +197,7 @@ const Projects = () => {
           </p>
           <Button className="btn-outline-hero" asChild>
             <a
-              href="https://github.com/vaibhav-gupta"
+              href="https://github.com/vaishnavi-dwivedi"
               target="_blank"
               rel="noopener noreferrer"
             >

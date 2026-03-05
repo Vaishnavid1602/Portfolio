@@ -2,24 +2,24 @@ import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   const socialLinks = [
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/vaibhav-gupta',
+      href: 'https://linkedin.com/in/vaishnavi-dwivedi',
       color: 'hover:text-blue-400'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/vaibhav-gupta',
+      href: 'https://github.com/vaishnavi-dwivedi',
       color: 'hover:text-gray-300'
     },
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:16vaibhavgupta@gmail.com',
+      href: 'mailto:vaishnavid8800@gmail.com',
       color: 'hover:text-primary'
     }
   ];
@@ -50,15 +50,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <button 
+            <button
               onClick={scrollToTop}
               className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"
             >
-              Vaibhav Gupta
+              Vaishnavi Dwivedi
             </button>
             <p className="text-muted-foreground leading-relaxed">
-              MERN Stack Developer passionate about creating beautiful, 
-              functional web applications that solve real-world problems.
+              Data Analyst passionate about transforming data into
+              meaningful insights and solving real-world business problems.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
@@ -100,18 +100,18 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-primary">Get In Touch</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>📍 Indore, Madhya Pradesh, India</p>
-              <a 
-                href="mailto:16vaibhavgupta@gmail.com"
+              <p>📍 Rewa, Madhya Pradesh, India</p>
+              <a
+                href="mailto:vaishnavid8800@gmail.com"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                📧 16vaibhavgupta@gmail.com
+                📧 vaishnavid8800@gmail.com
               </a>
-              <a 
-                href="tel:+919630053241"
+              <a
+                href="tel:+919770055855"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                📞 +91 9630053241
+                📞 +91 9770055855
               </a>
             </div>
           </div>
@@ -121,11 +121,11 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-muted-foreground">
-              <span>© {currentYear} Vaibhav Gupta. Built with</span>
+              <span>© {currentYear} Vaishnavi Dwivedi. Built with</span>
               <Heart className="h-4 w-4 text-red-500 animate-pulse" />
               <span>using React & Tailwind CSS</span>
             </div>
-            
+
             <button
               onClick={scrollToTop}
               className="text-primary hover:text-primary-dark transition-colors duration-300 font-medium animated-underline"

@@ -4,8 +4,8 @@ const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: 'Full-Stack Development',
-      description: 'Proficient in both frontend and backend technologies'
+      title: 'Data Analytics',
+      description: 'Proficient in Python, SQL, and statistical analysis'
     },
     {
       icon: Zap,
@@ -30,7 +30,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate about creating digital experiences that make a difference
+            Turning complex data into actionable insights
           </p>
         </div>
 
@@ -40,31 +40,31 @@ const About = () => {
             <div className="card-glow p-8">
               <h3 className="text-2xl font-bold mb-4 text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a motivated and detail-oriented web developer currently pursuing my Master's in Computer Applications
-                at Medicaps University, Indore. With a solid foundation in both frontend and backend development,
-                I specialize in creating responsive, interactive web applications.
+                I'm a motivated and detail-oriented Data Analyst currently pursuing my Master's in Computer Applications
+                at APS University, Rewa. With a solid foundation in data manipulation and statistical modeling,
+                I specialize in transforming raw data into meaningful visualizations and business insights.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                My technical expertise spans across HTML, CSS, JavaScript, and Node.js, with hands-on experience
-                in modern frameworks like React and Express.js. I have a passion for clean code, user experience,
-                and continuously learning new technologies.
+                My technical expertise spans across Python, SQL, Excel, and Power BI, with hands-on experience
+                in data cleaning, exploratory data analysis, and predictive modeling. I have a passion for data storytelling,
+                precision, and continuously learning new analytical techniques.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                As someone who thrives in collaborative environments, I'm eager to contribute to impactful projects
-                and grow alongside talented teams. My goal is to build solutions that not only meet technical
-                requirements but also create meaningful user experiences.
+                As someone who thrives in collaborative environments, I'm eager to contribute my analytical skills to
+                impactful projects and help organizations make data-driven decisions. My goal is to build solutions
+                that translate complex datasets into clear, strategic advantages.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4">
               <div className="card-glow p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">8.04</div>
-                <div className="text-sm text-muted-foreground">Current CGPA</div>
+                <div className="text-3xl font-bold text-primary mb-2">MCA</div>
+                <div className="text-sm text-muted-foreground">Pursuing</div>
               </div>
               <div className="card-glow p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">4+</div>
-                <div className="text-sm text-muted-foreground">Years Coding</div>
+                <div className="text-3xl font-bold text-primary mb-2">7.57</div>
+                <div className="text-sm text-muted-foreground">Bachelor's CGPA</div>
               </div>
             </div>
           </div>
