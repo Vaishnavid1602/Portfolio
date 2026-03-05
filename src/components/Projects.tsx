@@ -15,22 +15,22 @@ type Project = {
 
 const Projects = () => {
   const projects: Project[] = [
-    {
-      title: " ResX.AI– AI-Powered Resume Analyzer (Data-Driven AI)",
-      description:
-        "Developed an AI-powered resume analyzer using Python, FastAPI, and NLP for resume parsing, skill extraction, and data-driven job matching.",
-      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Python", "FastAPI", "NLP", "REST", "APIs"],
-      features: [
-        "AI-powered resume parsing and skill extraction using NLP for accurate analysis",
-        "Interactive dashboards and data visualizations for clear, actionable analysis results",
-        "Responsive, modern UI with performance optimization across all devices",
-        "Secure authentication and user-specific resume history tracking",
-      ],
-      liveDemo: "https://res-x-ai.vercel.app/",
-      github: "https://github.com/vaishnavi-dwivedi/ResX-AI",
-      status: "Completed",
-      // image: my,
-    },
+    // {
+    //   title: " ResX.AI– AI-Powered Resume Analyzer (Data-Driven AI)",
+    //   description:
+    //     "Developed an AI-powered resume analyzer using Python, FastAPI, and NLP for resume parsing, skill extraction, and data-driven job matching.",
+    //   techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Python", "FastAPI", "NLP", "REST", "APIs"],
+    //   features: [
+    //     "AI-powered resume parsing and skill extraction using NLP for accurate analysis",
+    //     "Interactive dashboards and data visualizations for clear, actionable analysis results",
+    //     "Responsive, modern UI with performance optimization across all devices",
+    //     "Secure authentication and user-specific resume history tracking",
+    //   ],
+    //   liveDemo: "https://res-x-ai.vercel.app/",
+    //   github: "https://github.com/vaishnavi-dwivedi/ResX-AI",
+    //   status: "Completed",
+    //   // image: my,
+    // },
     {
       title: "URL Shortener Web App",
       description:
