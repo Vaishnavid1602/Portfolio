@@ -29,7 +29,7 @@ const Hero = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/vaishnavi-dwivedi',
+      href: 'https://github.com/Vaishnavid1602',
       color: 'hover:text-gray-300'
     },
     {
