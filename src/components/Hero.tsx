@@ -23,7 +23,7 @@ const Hero = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/vaishnavi-dwivedi',
+      href: 'https://www.linkedin.com/in/vaishnavi-dwivedi-220465272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       color: 'hover:text-blue-400'
     },
     {
